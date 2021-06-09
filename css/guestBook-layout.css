@@ -47,6 +47,16 @@
     background-color: #b2bec3;
 }
 
+.gbook-content__bar a {
+    transition: all .5s;
+}
+.gbook-content__bar a:hover{
+    color:white;
+}
+
+
+
+
 .gbook-content__bar span{
     padding-left:5px;
     padding-right:5px;
@@ -71,11 +81,32 @@
 .gbook-content__img img{
     width:100%;
     height:100%;
-    background-image: url("http://source.unsplash.com/random");
+    background-image: url("https://media.giphy.com/media/xFmwnGWu0UUb0pRIVq/giphy.gif");
     background-position: center center;
     background-size: cover;
 
 }
+
+.gbook-content__wrapper__box .gbook-content:nth-child(2) .gbook-content__img img {
+    width:100%;
+    height:100%;
+    background-image: url("https://media.giphy.com/media/mYhd1NHQkHmZLiqN7M/giphy.gif");
+    background-position: center center;
+    background-size: cover;
+
+    
+}
+
+
+.gbook-content__wrapper__box .gbook-content:last-child .gbook-content__img img {
+    width:100%;
+    height:100%;
+    background-image: url("https://media.giphy.com/media/cT5gKT412jHqw/giphy.gif");
+    background-position: center center;
+    background-size: cover;
+
+}
+
 
 
 .gbook-content__txt{
