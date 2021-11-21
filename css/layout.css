@@ -1,9 +1,9 @@
 
-@import "/css/font.css";
-@import "/css/reset.css";
-@import "/css/profile-layout.css";
-@import "/css/diary-layout.css";
-@import "/css/guestBook-layout.css";
+@import "./font.css";
+@import "./reset.css";
+@import "./profile-layout.css";
+@import "./diary-layout.css";
+@import "./guestBook-layout.css";
 .disabled{
     display:none;
     width:100vw;
@@ -91,7 +91,7 @@
 .inner__first__real-content__img img{
     width:60%;
     height:80%;
-    background-image: url("/image/프로파일.png");
+    background-image: url("../image/프로파일.png");
     background-position: center center;
     background-size: cover;
 }
