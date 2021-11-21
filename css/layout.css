@@ -186,7 +186,7 @@
     display:flex;
     justify-content: space-around;
     align-items: center;
-    font-size:0.65em;
+    font-size:1.05em;
 }
 .inner__first__text span:nth-child(2){
     color:red;

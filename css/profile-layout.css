@@ -35,6 +35,7 @@
     justify-content: flex-start;
     align-items: center;
     background-color: #b2bec3;
+    font-size:1.3em;
 }
 .wrapper__txt__bar span {
     padding-left:30px;
